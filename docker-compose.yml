@@ -1,0 +1,11 @@
+version: '2'
+services:
+    nginx:
+        image: nginx
+        volumes:
+            - ./nginx/conf/nginx.conf:/etc/nginx/sites-enabled/default/nginx.conf
+            - ./nginx/key/nginx.key:/etc/nginx/ssl/nginx.key
+            - ./nginx/crt/nginx.crt:/etc/nginx/ssl/nginx.crt
+        ports:
+            - "8080:8080"
+
