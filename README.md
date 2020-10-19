@@ -6,7 +6,7 @@
 
 ## 2.- Con nuestra clave privada generada, creamos un Certificate Signing Request (CSR) para solicitar nuestro certificado SSL a una entidad de autorización reconocida. Este proceso nos pedirá una serie de datos que son importantes para solicitar el certificado SSL:
 
-    # Country Name (C): Un código de dos letras para determinar el país, en nuestro caso ponemos US ya que la entidad que lo va a manejar (RapidSSL) es de Estados Unidos. 
+Country Name (C): Un código de dos letras para determinar el país, en nuestro caso ponemos US ya que la entidad que lo va a manejar (RapidSSL) es de Estados Unidos. 
 State or Province (S): Estado o provincia, este campo puede quedar vacío
 Locality or City (L): Localidad o ciudad, tambiÃ©n se puede dejar vacio.
 Organization (O): Nombre de la organización que maneja tu certificado SSL, en nuestro caso RapidSSL opera a través de GeoTrust, Inc. y ponemos ese nombre.
