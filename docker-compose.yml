@@ -1,7 +1,7 @@
 version: '2'
 services:
     nginx:
-        image: nginx
+        build: .
         volumes:
             #- ./nginx/conf/nginx.conf:/etc/nginx/sites-enabled/default/nginx.conf
             - ./nginx/conf/nginx.conf:/etc/nginx/conf.d/nginx.conf
