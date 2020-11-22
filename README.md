@@ -1,4 +1,4 @@
-# nginx-reverseproxy-wso2am
+# nginx-reverseproxy-wso2am rogelio DESDE RGARCIAJIM2010
 
 ## 1.- Lo primero que necesitamos es crear una clave privada en nuestro servidor:
 
