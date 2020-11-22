@@ -1,4 +1,4 @@
-# nginx-reverseproxy-wso2am MODIFICADO DESDE ROGELIO LOCAL
+# nginx-reverseproxy-wso2am QUITADO DESDE ROGELIO LOCAL
 
 ## 1.- Lo primero que necesitamos es crear una clave privada en nuestro servidor:
 
